@@ -366,7 +366,7 @@ cat urllist.txt | tr -d ' ' | tr -s '.'
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
-![alt text](50.png)
+
 
 mkdir backupdir
  
@@ -376,19 +376,19 @@ cd backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
-![alt text](51.png)
+
 
 tar -xvf backup.tar
 ## OUTPUT
-![alt text](52.png)
+
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
- ![alt text](53.png)
+ 
 gunzip backup.tar.gz
 ## OUTPUT
-![alt text](54.png)
+
  
 # Shell Script
 ```
@@ -398,7 +398,7 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
-![alt text](55.png)
+
  
 cat << stop > herecheck.txt
 ```
@@ -410,7 +410,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
-![alt text](56.png)
+
 
 cat < scriptest.sh 
 ```bash
@@ -448,25 +448,24 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
-![alt text](57.png)
+
  
 ls file1
 ## OUTPUT
-![alt text](58.png)
+
 echo $?
 ## OUTPUT 
-![alt text](59.png)
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
- ![alt text](60.png)
+ 
 abcd
  
 echo $?
  ## OUTPUT
-![alt text](60.png)
+
 
  
 # mis-using string comparisons
@@ -498,13 +497,14 @@ echo "$val1 is less than $val2"
 fi
 ```
 ##OUTPUT
-![alt text](62.png)
+
+
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
-![alt text](61.png)
+
 
 # check file ownership
 cat < psswdperm.sh 
@@ -531,7 +531,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
-![alt text](63.png)
+
 # check if with file location
 cat>ifnested.sh 
 ```bash
@@ -577,7 +577,7 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
-![alt text](64.png)
+
 
 
 # using numeric test comparisons
@@ -621,7 +621,7 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
-![alt text](<Screenshot at 2025-08-24 07-51-58.png>)
+
 # check if a file
 cat > ifnested.sh 
 ```bash
@@ -670,7 +670,7 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
-![alt text](65.png)
+
 # looking for a possible value using elif
 cat elifcheck.sh 
 ```bash
@@ -698,7 +698,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
-![alt text](66.png)
+
 
 # testing compound comparisons
 cat> ifcompound.sh 
@@ -714,7 +714,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
-![alt text](67.png)
+
 # using the case command
 cat >casecheck.sh 
 ```bash
@@ -733,10 +733,7 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
- # OUTPUT
- ![alt text](68.png)
-
-
+ 
 cat > whiletest
 ```bash
 #!/bin/bash
@@ -751,9 +748,7 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
- # OUTPUT
- ![alt text](70.png)
-
+ 
  
 cat untiltest.sh 
 ```bash

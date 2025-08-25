@@ -767,8 +767,6 @@ done
 ``` 
 $ chmod 755 untiltest.sh
  
- 
- 
 cat forin1.sh 
 ```bash
 \#!/bin/bash
@@ -830,6 +828,7 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -851,7 +850,7 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
-
+![alt text](71.png)
 
 cat forctype.sh 
 ```bash
@@ -865,7 +864,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
-
+![alt text](74.png)
 cat forctype1.sh 
 ```bash
 #!/bin/bash
@@ -878,7 +877,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
-
+![alt text](72.png)
 cat fornested1.sh 
 ```bash
 #!/bin/bash
@@ -896,7 +895,7 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
-
+![alt text](73.png)
  
 cat forbreak.sh 
 ```bash
@@ -913,12 +912,12 @@ done
 echo "The for loop is completed“
 ```
 ## OUTPUT
-
+![alt text](75.png)
 $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
  
-cat forbreak.sh 
+cat forcontinue.sh 
 ```bash
 #!/bin/bash
 # breaking out of a for loop
@@ -938,7 +937,7 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
- 
+ ![alt text](76.png)
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -953,7 +952,7 @@ $ chmod 755 exread.sh
 $ ./exread.sh 
 ## OUTPUT
 
-
+![alt text](77.png)
  cat exread1.sh
 ```bash
 #!/bin/bash
@@ -964,7 +963,7 @@ echo "Hello $name, welcome to my program. “
 $ chmod 755 exread1.sh 
 
 ## OUTPUT
-
+![alt text](78.png)
 
 
 $ ./exread1.sh 
@@ -985,12 +984,14 @@ echo "Usage: badtest1 a b"
 fi
 ```
 ## OUTPUT
+![alt text](79.png)
  ./funcex.sh 
 
  
  ./funcex.sh 1 2
 
- 
+ # OUTPUT
+ ![alt text](81.png)
 cat argshift.sh
 ```bash
 #!/bin/bash 
@@ -1002,6 +1003,7 @@ done
 $ chmod 777 argshift.sh
 
 ## OUTPUT
+![alt text](82.png)
 $ ./argshift.sh 1 2 3
  
  cat argshift1.sh
@@ -1019,6 +1021,7 @@ done
 ```
 $ chmod 777 argshift.sh
 ## OUTPUT
+![alt text](84.png)
 $ ./argshift.sh 1 2 3
  
 cat argshift.sh
@@ -1064,7 +1067,7 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+ ![alt text](85.png)
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1091,7 +1094,7 @@ else
 fi
 ```
 ## OUTPUT 
-
+![alt text](86.png)
 
 # RESULT:
 The Commands are executed successfully.
